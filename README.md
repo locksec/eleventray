@@ -14,7 +14,7 @@ Simply install ElevenTray, and it will silently run in the background, ensuring 
 * **Build:** 10.0.22000 or higher
 
 # Installation
-* Download the latest version of the installer from the Releases section.
+* Download the latest version of the installer from the [Releases](https://github.com/locksec/eleventray/releases) section.
 * Run the installer and follow the on-screen instructions.
 * Once installed, ElevenTray will automatically start and ensure that all tray icons remain visible. You'll see `ElevenTray.exe` running in Task Manager.
 
