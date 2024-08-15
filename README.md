@@ -1,5 +1,7 @@
 # Description
-ElevenTray is a privacy-respecting and lightweight utility for Windows 11 that ensures all system tray icons are always visible. Frustratingly, Microsoft decided to hide system tray icons by default and removed the option "Always show all icons in the notification area." Previous workarounds, such as using `explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}` to access this setting, no longer work.
+ElevenTray is a privacy-respecting and lightweight utility for Windows 11 that ensures all system tray icons are always visible. Frustratingly, Microsoft decided to hide system tray icons by default in Windows 11, and removed the option for *"Always show all icons in the notification area."* Previous workarounds, such as using `explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}` to access this setting, no longer work.
+
+Simply install ElevenTray, and it will silently run in the background, ensuring ALL system tray icons stay visible.
 
 # Features
 * No trackers or telemetry.
@@ -8,8 +10,8 @@ ElevenTray is a privacy-respecting and lightweight utility for Windows 11 that e
 * Logs actions and events to `C:\Program Files\ElevenTray\ElevenTray.log` (default installation location).
 
 # System Requirements
-* Operating System: Windows 11
-* Build: 10.0.22000 or higher
+* **Operating System:** Windows 11
+* **Build:** 10.0.22000 or higher
 
 # Installation
 * Download the latest version of the installer from the Releases section.
@@ -30,9 +32,9 @@ To verify the authenticity of the release, use the GPG signature provided and fo
 2. Import my GPG public key (see below).
 3. Verify the installer using the following command: `gpg --verify setup.exe.sig setup.exe`.
 
-Public Key: [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)
-Key ID: 0xF0C5ACA2
-Fingerprint: 63D5A147B9A4E750F620E548B802D40CF0C5ACA2
+**Public Key:** [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)\n
+**Key ID:** 0xF0C5ACA2\n
+**Fingerprint:** 63D5A147B9A4E750F620E548B802D40CF0C5ACA2\n
 
 Use: `gpg --recv-keys 63D5A147B9A4E750F620E548B802D40CF0C5ACA2`
 or import with: `gpg --import path/to/public-key.asc`
