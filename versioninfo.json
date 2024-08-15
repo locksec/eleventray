@@ -3,13 +3,13 @@
       "FileVersion": {
         "Major": 1,
         "Minor": 0,
-        "Patch": 0,
+        "Patch": 1,
         "Build": 0
       },
       "ProductVersion": {
         "Major": 1,
         "Minor": 0,
-        "Patch": 0,
+        "Patch": 1,
         "Build": 0
       },
       "FileFlagsMask": "3f",
@@ -21,14 +21,14 @@
     "StringFileInfo": {
       "Comments": "",
       "CompanyName": "The Lockdown",
-      "FileDescription": "ElevenTray (Show all tray icons)",
-      "FileVersion": "1.0.0.0",
+      "FileDescription": "ElevenTray - Show the damn tray icons!",
+      "FileVersion": "1.0.1.0",
       "InternalName": "ElevenTray.exe",
       "LegalCopyright": "© 2024 The Lockdown",
       "LegalTrademarks": "",
       "OriginalFilename": "ElevenTray.exe",
       "ProductName": "ElevenTray",
-      "ProductVersion": "1.0.0.0"
+      "ProductVersion": "1.0.1.0"
     },
     "VarFileInfo": {
       "Translation": {
