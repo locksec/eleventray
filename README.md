@@ -10,8 +10,8 @@ Simply install ElevenTray, and it will silently run in the background, ensuring 
 * Logs actions and events to `C:\Program Files\ElevenTray\ElevenTray.log` (default installation location).
 
 # System Requirements
-* **Operating System:** Windows 11
-* **Build:** 10.0.22000 or higher
+* **Operating System**: Windows 11
+* **Build**: 10.0.22000 or higher
 
 # Installation
 * Download the latest version of the installer from the [Releases](https://github.com/locksec/eleventray/releases) section.
@@ -33,9 +33,10 @@ To verify the authenticity of the release, use the GPG signature provided and fo
 3. Verify the installer using the following command: `gpg --verify elevensetup.exe.sig elevensetup.exe`.
 
 ### Importing my GPG Public Key
-* **Public Key:** [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)
-* **Key ID:** 0xF0C5ACA2
-* **Fingerprint:** 63D5A147B9A4E750F620E548B802D40CF0C5ACA2
+* **Public Key**: [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)
+* **Key ID**: B802D40CF0C5ACA2
+* **Subkeys**: 482532A2A469C7A7
+* **Fingerprint**: 63D5A147B9A4E750F620E548B802D40CF0C5ACA2
 
 Use: `gpg --recv-keys 63D5A147B9A4E750F620E548B802D40CF0C5ACA2`
 
