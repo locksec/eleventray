@@ -28,10 +28,11 @@ This is open-source software, so feel free to check out the code. There are no t
 ## GPG Signature
 To verify the authenticity of the release, use the GPG signature provided and follow these steps:
 
-1. Download both the installer (`setup.exe`) and the corresponding GPG signature file (`setup.exe.sig`).
+1. Download both the installer (`elevensetup.exe`) and the corresponding GPG signature file (`elevensetup.exe.sig`).
 2. Import my GPG public key (see below).
-3. Verify the installer using the following command: `gpg --verify setup.exe.sig setup.exe`.
+3. Verify the installer using the following command: `gpg --verify elevensetup.exe.sig elevensetup.exe`.
 
+### Importing my GPG Public Key
 * **Public Key:** [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)
 * **Key ID:** 0xF0C5ACA2
 * **Fingerprint:** 63D5A147B9A4E750F620E548B802D40CF0C5ACA2
