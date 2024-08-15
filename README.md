@@ -32,9 +32,9 @@ To verify the authenticity of the release, use the GPG signature provided and fo
 2. Import my GPG public key (see below).
 3. Verify the installer using the following command: `gpg --verify setup.exe.sig setup.exe`.
 
-**Public Key:** [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)\n
-**Key ID:** 0xF0C5ACA2\n
-**Fingerprint:** 63D5A147B9A4E750F620E548B802D40CF0C5ACA2\n
+* **Public Key:** [pubkey.asc](https://lockdown.media/gpg/pubkey.asc)
+* **Key ID:** 0xF0C5ACA2
+* **Fingerprint:** 63D5A147B9A4E750F620E548B802D40CF0C5ACA2
 
 Use: `gpg --recv-keys 63D5A147B9A4E750F620E548B802D40CF0C5ACA2`
 or import with: `gpg --import path/to/public-key.asc`
