@@ -41,7 +41,7 @@ Use: `gpg --recv-keys 63D5A147B9A4E750F620E548B802D40CF0C5ACA2`
 or import with: `gpg --import path/to/public-key.asc`
 
 # Donate
-If you find ElevenTray useful and would like to support its development, consider becoming a [Patreon member](https://www.patreon.com/TheLockdown). I also host "The Lockdown - Practical Privacy & Security" [podcast](https://lockdown.media/podcast/). My Patreon members help support projects such as this and the show, but of course, it is entirely optional. Privacy is a human right, and I'm just trying to keep it that way.
+If you find ElevenTray useful and would like to support its development, consider becoming a [Patreon member](https://www.patreon.com/TheLockdown). I also host ["The Lockdown - Practical Privacy & Security"](https://lockdown.media/podcast/). My Patreon members help support projects such as this and the show, but of course, it is entirely optional. Privacy is a human right, and I'm just trying to keep it that way.
 
 # License
 ElevenTray is open-source software licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
