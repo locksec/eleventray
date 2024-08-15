@@ -1,6 +1,6 @@
 [Setup]
 AppName=ElevenTray
-AppVersion=1.0
+AppVersion=1.0.1
 AppVerName=ElevenTray
 DefaultDirName={commonpf64}\ElevenTray
 DefaultGroupName=ElevenTray

@@ -1,5 +1,5 @@
 // ElevenTray
-// Version: 1.0.0
+// Version: 1.0.1
 // Created on: 2024-08-14
 // Last Updated: 2024-08-14
 // Author: Ray Heffer
@@ -67,8 +67,9 @@ func monitorNotifyIconSettings() {
 }
 
 func main() {
-	// Open (or create) log file
-	f, err := os.OpenFile("C:\\Program Files\\ElevenTray\\ElevenTray.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	// Open (or create) log file in the current directory
+	logFilePath := "ElevenTray.log"
+	f, err := os.OpenFile(logFilePath, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 	if err != nil {
 		log.Fatalf("Error opening log file: %v", err)
 	}

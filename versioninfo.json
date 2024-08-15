@@ -21,7 +21,7 @@
     "StringFileInfo": {
       "Comments": "",
       "CompanyName": "The Lockdown",
-      "FileDescription": "Show all tray icons on Windows",
+      "FileDescription": "ElevenTray (Show all tray icons)",
       "FileVersion": "1.0.0.0",
       "InternalName": "ElevenTray.exe",
       "LegalCopyright": "© 2024 The Lockdown",
