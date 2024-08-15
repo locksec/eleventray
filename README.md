@@ -37,6 +37,7 @@ To verify the authenticity of the release, use the GPG signature provided and fo
 * **Fingerprint:** 63D5A147B9A4E750F620E548B802D40CF0C5ACA2
 
 Use: `gpg --recv-keys 63D5A147B9A4E750F620E548B802D40CF0C5ACA2`
+
 or import with: `gpg --import path/to/public-key.asc`
 
 # Donate
