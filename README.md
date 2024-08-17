@@ -1,4 +1,11 @@
-# Description
+<p align="center">
+	<a href="https://github.com/locksec/eleventray/releases"><img src="https://img.shields.io/github/v/release/locksec/eleventray?style=flat-square&include_prereleases&label=version" /></a>
+	<a href="https://github.com/locksec/eleventray/blob/main/LICENSE.txt"><img src="https://img.shields.io/github/license/locksec/eleventray?style=flat-square" /></a>
+</p>
+
+----
+
+# ElevenTray - Show the damn tray icons!
 ElevenTray is a privacy-respecting and lightweight utility for Windows 11 that ensures all system tray icons are always visible. Frustratingly, Microsoft decided to hide system tray icons by default in Windows 11, and removed the option for *"Always show all icons in the notification area."* Previous workarounds, such as using `explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}` to access this setting, no longer work.
 
 Simply install ElevenTray, and it will silently run in the background, ensuring ALL system tray icons stay visible.
