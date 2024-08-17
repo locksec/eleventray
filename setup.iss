@@ -1,6 +1,6 @@
 [Setup]
 AppName=ElevenTray
-AppVersion=1.0.1
+AppVersion=1.0.2
 AppVerName=ElevenTray
 DefaultDirName={commonpf64}\ElevenTray
 DefaultGroupName=ElevenTray
@@ -11,20 +11,18 @@ SolidCompression=yes
 MinVersion=10.0.22000
 OutputDir=installer
 LicenseFile=LICENSE.txt
+PrivilegesRequired=admin 
 
 [Files]
 Source: "build\ElevenTray.exe"; DestDir: "{app}"; Flags: ignoreversion
 
-[Icons]
-Name: "{commonstartup}\ElevenTray"; Filename: "{app}\ElevenTray.exe"; WorkingDir: "{app}"
-
 [Run]
+Filename: "{cmd}"; Parameters: "/C schtasks /create /tn ""ElevenTray"" /tr ""\""{app}\ElevenTray.exe\"""" /sc onlogon /rl highest /f"; Flags: runhidden
 Filename: "{app}\ElevenTray.exe"; Description: "Start ElevenTray"; Flags: shellexec skipifsilent
 
 [UninstallRun]
-; Terminate the ElevenTray process during uninstallation
 Filename: "taskkill"; Parameters: "/F /IM ElevenTray.exe"; Flags: runhidden; RunOnceId: "TerminateElevenTray"
+Filename: "{cmd}"; Parameters: "/C schtasks /delete /tn ""ElevenTray"" /f"; Flags: runhidden; RunOnceId: "DeleteElevenTrayTask"
 
 [UninstallDelete]
-; Ensure that the entire installation directory is removed
 Type: filesandordirs; Name: "{app}"
